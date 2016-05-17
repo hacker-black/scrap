@@ -5,21 +5,65 @@ You need Python3 and bs4 library.
 
 Output will be like this:
 <pre>
-[hossein@ArchLinux Scripts]$ ./scrap.py 
- 
-Rhythmbox 3.3.1 Released, Ported to WebKit2, Better Handle Locked Android Devices
- 
- 
-How to Install Grub Customizer 5.0.5 in Ubuntu 16.04 LTS
- 
- 
-Install Simplenote Desktop App in Ubuntu
- 
- 
-How to Upgrade From Ubuntu 15.10 to Ubuntu 16.04 Beta
- 
- 
-How to Install f.lux in Ubuntu 16.04, Ubuntu 15.10
- 
-[hossein@ArchLinux Scripts]$ 
+[hossein@ArchLinux ~]$ ubuntuhandbook 
+
+How to Install Linux Kernel 4.6 in Ubuntu 16.04
+
+
+Install The Latest SMPlayer 16.4.0 in Ubuntu 16.04 via PPA
+
+
+How to Install Twitter App Corebird 1.2.1 in Ubuntu 16.04
+
+
+How to Install Ubuntu Tweak in Ubuntu 16.04
+
+
+Customizing Your Notification Bubbles in Ubuntu 16.04
+
+[hossein@ArchLinux ~]$ 
 </pre>
+
+# How It Works
+
+First of all download scrap.py file and change it's name to ubuntuhandbook:
+
+<pre>
+mv scrap.py ubuntuhandbook
+</pre>
+
+Now let this file to be excuted:
+
+<pre>
+chmod +x ubuntuhandbook
+</pre>
+
+At last step move the file to /usr/bin:
+
+<pre>
+sudo mv ubuntuhandbook /usr/bin
+</pre>
+
+Now type ubuntuhandbook in your terminal:
+
+<pre>
+[hossein@ArchLinux ~]$ ubuntuhandbook 
+
+How to Install Linux Kernel 4.6 in Ubuntu 16.04
+
+
+Install The Latest SMPlayer 16.4.0 in Ubuntu 16.04 via PPA
+
+
+How to Install Twitter App Corebird 1.2.1 in Ubuntu 16.04
+
+
+How to Install Ubuntu Tweak in Ubuntu 16.04
+
+
+Customizing Your Notification Bubbles in Ubuntu 16.04
+
+[hossein@ArchLinux ~]$ 
+</pre>
+
+
